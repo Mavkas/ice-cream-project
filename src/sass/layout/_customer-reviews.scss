@@ -24,34 +24,7 @@
     padding:43px 58px 0 65px ;
   }}
  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color:rgba(255, 245, 246, 1);
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color:rgba(212, 20, 67, 1);
-    color: white;
-  }
-  
+   
   /* The dot/bullet/indicator container */
   .dot-container {
     text-align: center;
